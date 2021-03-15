@@ -1,0 +1,11 @@
+MECHANIQUES:
+topdown
+plusieurs perso/inventaire
+(map random)
+ennemis (pathfinding)
+pièges
+
+GENRE:
+futuriste / modern
+shooter
+
