@@ -1,7 +1,154 @@
 fileFormatVersion: 2
 guid: bd1abe8bf81fac44d8cc90645d8f6615
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 203139981844049344
+    second: Pipe top right
+  - first:
+      213: -3369925323594691026
+    second: Pipe horizontal
+  - first:
+      213: 6936433018100581057
+    second: pipe top left
+  - first:
+      213: -729240491918445870
+    second: floor
+  - first:
+      213: 2913845008946507883
+    second: floor open
+  - first:
+      213: 553237612997735284
+    second: Pipe vertical 2
+  - first:
+      213: -4677604902980943801
+    second: Pipe middle
+  - first:
+      213: -5568092094440090782
+    second: Pipe vertical
+  - first:
+      213: -3289712152153413415
+    second: floor blood
+  - first:
+      213: -5835427583590641175
+    second: floor closed
+  - first:
+      213: -5778594624417240487
+    second: Pipe bottom left
+  - first:
+      213: 1179295086838753799
+    second: Pipe horizontal 2
+  - first:
+      213: 2020105299033805348
+    second: Pipe bottom right
+  - first:
+      213: 7836710961949959072
+    second: floor blood 2
+  - first:
+      213: -5537415307455653752
+    second: floor closed 2
+  - first:
+      213: -455727278298900207
+    second: door horizontal closed
+  - first:
+      213: 2843064025389885860
+    second: door vertical closed
+  - first:
+      213: -5052692057857636390
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_17
+  - first:
+      213: 7904992194500233806
+    second: floor open blood
+  - first:
+      213: 4785182974374635124
+    second: floor open blood 2
+  - first:
+      213: 7627910956842551537
+    second: door horizontal open
+  - first:
+      213: -6798024837608863707
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_21
+  - first:
+      213: -8056823986347286239
+    second: consol 2
+  - first:
+      213: 972654501863635747
+    second: floor grid
+  - first:
+      213: 6604755505322248135
+    second: floor stuff
+  - first:
+      213: -6699590472371788380
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_25
+  - first:
+      213: -603732201825968855
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_26
+  - first:
+      213: 76011468391702886
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_27
+  - first:
+      213: 5057574620169346105
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_28
+  - first:
+      213: 4080177717289490018
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_29
+  - first:
+      213: 5423550483779517441
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_30
+  - first:
+      213: 7524814072774581829
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_31
+  - first:
+      213: -7340297388946080258
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_32
+  - first:
+      213: -1182676726429627216
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_33
+  - first:
+      213: 2485709023090652235
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_34
+  - first:
+      213: -7629113516354497186
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_35
+  - first:
+      213: -6140092776816262956
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_36
+  - first:
+      213: -8423313058068434847
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_37
+  - first:
+      213: -6896202527691497289
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_38
+  - first:
+      213: -662691362585310598
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_39
+  - first:
+      213: -7231527727965183632
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_40
+  - first:
+      213: -4737783409219734709
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_41
+  - first:
+      213: -8403720300709979930
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_42
+  - first:
+      213: 5066048443770568411
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_43
+  - first:
+      213: 4967604737280266199
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_44
+  - first:
+      213: -1242100464743163324
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_45
+  - first:
+      213: 2653554482799638621
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_46
+  - first:
+      213: 1862279702540678400
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_47
+  - first:
+      213: -1034459940728979344
+    second: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_48
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +188,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +220,546 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Pipe top right
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cd6e79bcb2b1d200800000000000000
+      internalID: 203139981844049344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe horizontal
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2e8b87d5ce9b31d0800000000000000
+      internalID: -3369925323594691026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pipe top left
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c20d244419234060800000000000000
+      internalID: 6936433018100581057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d2be53e2a731e5f0800000000000000
+      internalID: -729240491918445870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor open
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b603dc0f89e007820800000000000000
+      internalID: 2913845008946507883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe vertical 2
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4737d178dae7da700800000000000000
+      internalID: 553237612997735284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe middle
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 740023eaf1fc51fb0800000000000000
+      internalID: -4677604902980943801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe vertical
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 263dc3abdb92ab2b0800000000000000
+      internalID: -5568092094440090782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor blood
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d82c9d2a389852d0800000000000000
+      internalID: -3289712152153413415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor closed
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e15097b785640fa0800000000000000
+      internalID: -5835427583590641175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe bottom left
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ae0ae2ece4ecfa0800000000000000
+      internalID: -5778594624417240487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe horizontal 2
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a236022a2bd5010800000000000000
+      internalID: 1179295086838753799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Pipe bottom right
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4225bc5011bd80c10800000000000000
+      internalID: 2020105299033805348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor blood 2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3ef66691791cc60800000000000000
+      internalID: 7836710961949959072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor closed 2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8889b49cd162723b0800000000000000
+      internalID: -5537415307455653752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door horizontal closed
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 119d986747eeca9f0800000000000000
+      internalID: -455727278298900207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door vertical closed
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a96e0bfaa7947720800000000000000
+      internalID: 2843064025389885860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_17
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad745fbf75b31e9b0800000000000000
+      internalID: -5052692057857636390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor open blood
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4a0c69b48c24bd60800000000000000
+      internalID: 7904992194500233806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor open blood 2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 476e8dcef82686240800000000000000
+      internalID: 4785182974374635124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: door horizontal open
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f809e0d998cbd960800000000000000
+      internalID: 7627910956842551537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3a9a43c604b1c5d3acaf8d6a9e32ba3a_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5288a0c7d6098a1a0800000000000000
+      internalID: -6798024837608863707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: consol 2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1216ce37549603090800000000000000
+      internalID: -8056823986347286239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor grid
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32b34c8bd109f7d00800000000000000
+      internalID: 972654501863635747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: floor stuff
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c7c90b732ec8ab50800000000000000
+      internalID: 6604755505322248135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
