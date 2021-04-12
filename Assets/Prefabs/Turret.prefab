@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a7ff119de3d5744390de56905c09e41, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 4
+  range: 5
   target: {fileID: 0}
   gun: {fileID: 5655202562552325821}
   enemyBullet: {fileID: 6431072669729809092, guid: d95c30b4d9496a941a2b9944efcafa73, type: 3}

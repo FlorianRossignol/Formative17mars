@@ -33,5 +33,11 @@ public class PlayerCharacter : MonoBehaviour
 
         PlayerBody_.rotation = Angle_;
     }
-
+    private void OnTriggerEnter2D(Collider2D other)
+        {
+            if (other.gameObject.CompareTag("enemy"))
+            {
+                Destroy(gameObject);
+            }
+        }
 }
