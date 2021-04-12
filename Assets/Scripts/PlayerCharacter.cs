@@ -7,7 +7,7 @@ public class PlayerCharacter : MonoBehaviour
     [SerializeField] private SpriteRenderer PlayerSprite_;
     [SerializeField] private Rigidbody2D PlayerBody_;
     private const float MoveSpeed_ = 5.0f;
-    private bool FacingRight_ = false;
+    //private bool FacingRight_ = false;
     private Vector2 movement_;
     [SerializeField] private Camera cam_;
     private Vector2 MousePos_;
