@@ -7,9 +7,9 @@ using UnityEngine.Serialization;
 
 public class turret : MonoBehaviour
 {
-    public float range;
-
-    public Transform target;
+    [SerializeField] private float range;
+    
+    [SerializeField] private Transform target;
 
     bool IsDetected = false;
 
@@ -19,11 +19,11 @@ public class turret : MonoBehaviour
 
     [SerializeField] private GameObject enemyBullet;
 
-    public float fireRate;
+    [SerializeField] private float fireRate;
 
     [SerializeField] private float nextTimeToFire = 0;
     [SerializeField] private Transform shoot;
-    public float force;
+    [SerializeField] private float force;
     
     void Update()
     {

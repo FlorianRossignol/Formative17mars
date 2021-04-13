@@ -6,12 +6,12 @@ using Random = UnityEngine.Random;
 
 public class Enemy_AI : MonoBehaviour
 {
-    public float accelerationTime = 2f;
-    public float maxSpeed = 5f;
+    [SerializeField] private float accelerationTime = 2f;
+    [SerializeReference] private float maxSpeed = 5f;
     private Vector2 movement;
     private float timeLeft;
     private Rigidbody2D rb;
-    
+
 
     void Start()
     {

@@ -5,12 +5,12 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
-    public Transform playerCharacter;
-    public float cameraDistance = 30.0f;
-    public Transform left;
-    public Transform right;
-    public Transform bottom;
-    public Transform top;
+    [SerializeField] private Transform playerCharacter;
+    [SerializeField] private float cameraDistance = 30.0f;
+    [SerializeField] private Transform left;
+    [SerializeField] private Transform right;
+    [SerializeField] private Transform bottom;
+    [SerializeField] private Transform top;
 
     private void Awake()
     {
