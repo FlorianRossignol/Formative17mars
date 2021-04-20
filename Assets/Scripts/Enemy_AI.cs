@@ -6,31 +6,41 @@ using Random = UnityEngine.Random;
 
 public class Enemy_AI : MonoBehaviour
 {
-    [SerializeField] private float accelerationTime = 2f;
-    [SerializeReference] private float maxSpeed = 5f;
-    private Vector2 movement;
-    private float timeLeft;
-    private Rigidbody2D rb;
+    private Rigidbody2D Rb;
+    private PlayerCharacter Player;
+    private float MoveSpeed;
+    private Vector3 DirectionToPlayer;
+    private Vector3 LocalScale;
 
-
-    void Start()
+    private void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
-    }
-
-    private void Update()
-    {
-        timeLeft -= Time.deltaTime;
-        if (timeLeft <= 0)
-        {
-            movement = new Vector2(Random.Range(-1f, 1f), Random.Range(-1f, 1f));
-            timeLeft += accelerationTime;
-        }
+        Rb = GetComponent<Rigidbody2D>();
+        Player = FindObjectOfType(typeof(PlayerCharacter)) as PlayerCharacter;
+        MoveSpeed = 2f;
+        LocalScale = transform.localScale;
     }
 
     private void FixedUpdate()
     {
-        rb.AddForce(movement * maxSpeed);
+        MoveEnemy();
+    }
+
+    private void MoveEnemy()
+    {
+        DirectionToPlayer = (Player.transform.position - transform.position).normalized;
+        Rb.velocity = new Vector2(DirectionToPlayer.x, DirectionToPlayer.y) * MoveSpeed;
+    }
+
+    private void LateUpdate()
+    {
+        if (Rb.velocity.x > 0)
+        {
+            transform.localScale = new Vector3(LocalScale.x, LocalScale.y, LocalScale.z);
+        }
+        else if (Rb.velocity.x < 0)
+        {
+            transform.localScale = new Vector3(-LocalScale.x, LocalScale.y, LocalScale.z);
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D other)

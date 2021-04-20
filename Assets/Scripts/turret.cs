@@ -11,7 +11,7 @@ public class turret : MonoBehaviour
     
     [SerializeField] private Transform target;
 
-    bool IsDetected = false;
+    bool isDetected = false;
 
     private Vector2 Direction;
 
@@ -37,22 +37,22 @@ public class turret : MonoBehaviour
         {
             if (rayInfo.collider.gameObject.CompareTag("Player"))
             {
-                if (IsDetected == false)
+                if (isDetected == false)
                 {
-                    IsDetected = true;
+                    isDetected = true;
                 }
             }
 
             else
             {
-                if (IsDetected == true)
+                if (isDetected == true)
                 {
-                    IsDetected = false;
+                    isDetected = false;
                 }
             }
         }
 
-        if (IsDetected == true)
+        if (isDetected == true)
         {
             gun.transform.up = Direction;
             if (Time.time > nextTimeToFire)
