@@ -204,7 +204,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &586126835
 PrefabInstance:
@@ -265,33 +265,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerCharacter
       objectReference: {fileID: 0}
+    - target: {fileID: 8210554866641000209, guid: 53938310b269f754ea7f36a834c0e342, type: 3}
+      propertyPath: cam_
+      value: 
+      objectReference: {fileID: 519420031}
+    - target: {fileID: 8210554866641000222, guid: 53938310b269f754ea7f36a834c0e342, type: 3}
+      propertyPath: m_SortingOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8210554866736435506, guid: 53938310b269f754ea7f36a834c0e342, type: 3}
+      propertyPath: MainCamera
+      value: 
+      objectReference: {fileID: 519420031}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 53938310b269f754ea7f36a834c0e342, type: 3}
---- !u!1 &1476932024 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7769587336652204793, guid: 53938310b269f754ea7f36a834c0e342, type: 3}
-  m_PrefabInstance: {fileID: 586126835}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1476932029 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1728661734610056109, guid: 53938310b269f754ea7f36a834c0e342, type: 3}
-  m_PrefabInstance: {fileID: 586126835}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1476932030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1476932024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eac1e9bf37a0e974a931a72516aa89eb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FirePoint_: {fileID: 1671696607}
-  BulletPrefab_: {fileID: 6431072669729809092, guid: 1a00ea3064e292f4eb4a22c537ac68ab, type: 3}
---- !u!1 &1671696606
+--- !u!1 &1311781617
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -299,25 +287,74 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1671696607}
+  - component: {fileID: 1311781620}
+  - component: {fileID: 1311781619}
+  - component: {fileID: 1311781618}
   m_Layer: 0
-  m_Name: Firepoint
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1671696607
+--- !u!50 &1311781618
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311781617}
+  m_BodyType: 2
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!61 &1311781619
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1311781617}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!4 &1311781620
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1671696606}
+  m_GameObject: {fileID: 1311781617}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.26, y: 1.24, z: 0}
+  m_LocalPosition: {x: -4.21, y: -1.1873004, z: -2.213121}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1476932029}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
