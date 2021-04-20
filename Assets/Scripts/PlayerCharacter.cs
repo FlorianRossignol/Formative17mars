@@ -12,6 +12,8 @@ public class PlayerCharacter : MonoBehaviour
     private Vector2 movement_;
     [SerializeField] private Camera cam_;
     private Vector2 MousePos_;
+    [SerializeField] private SceneManager currentScene;
+    
     void Start()
     {
         PlayerBody_ = GetComponent<Rigidbody2D>();
