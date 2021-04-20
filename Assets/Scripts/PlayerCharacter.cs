@@ -40,7 +40,9 @@ public class PlayerCharacter : MonoBehaviour
         {
             if (other.gameObject.CompareTag("enemy"))
             {
-                SceneManager.LoadScene("SandyScene");
+#pragma warning disable 618
+                Application.LoadLevel(Application.loadedLevel);
+#pragma warning restore 618
             }
         }
 }

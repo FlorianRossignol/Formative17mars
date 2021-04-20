@@ -6,9 +6,10 @@ public class Shooting : MonoBehaviour
 {
     [SerializeField] private Transform FirePoint_;
     [SerializeField] private GameObject BulletPrefab_;
-    private float ShakeAmt_ = 0;
     [SerializeField] private Camera MainCamera;
-    private Vector3 originalCameraPosition_;
+    
+    private Vector3 originalCameraPosition_; 
+    private float ShakeAmt_ = 0;
     private float BulletForce_ = 20.0f;
     // Update is called once per frame
     void Update()
