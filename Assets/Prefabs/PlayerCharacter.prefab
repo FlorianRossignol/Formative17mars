@@ -79,7 +79,7 @@ SpriteRenderer:
   m_Size: {x: 5, y: 5}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &8210554866641000208
@@ -266,3 +266,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   FirePoint_: {fileID: 8210554866736435509}
   BulletPrefab_: {fileID: 6431072669729809092, guid: 1a00ea3064e292f4eb4a22c537ac68ab, type: 3}
+  MainCamera: {fileID: 0}

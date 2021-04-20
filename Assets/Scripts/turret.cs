@@ -59,6 +59,7 @@ public class turret : MonoBehaviour
             {
                 nextTimeToFire = Time.time + 1 / fireRate;
                 fire();
+                FindObjectOfType<AudioManager>().Play("EnemyShoot");
             }
         }
     }
