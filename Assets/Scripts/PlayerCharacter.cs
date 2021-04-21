@@ -25,6 +25,10 @@ public class PlayerCharacter : MonoBehaviour
         movement_.y = Input.GetAxisRaw("Vertical");
 
        MousePos_ = cam_.ScreenToWorldPoint(Input.mousePosition);
+       if (Input.GetKey(KeyCode.R))
+       {
+           SceneManager.LoadScene(Application.loadedLevel);
+       }
     }
 
     void FixedUpdate()
@@ -41,7 +45,7 @@ public class PlayerCharacter : MonoBehaviour
             if (other.gameObject.CompareTag("enemy"))
             {
 #pragma warning disable 618
-                Application.LoadLevel(Application.loadedLevel);
+                SceneManager.LoadScene(Application.loadedLevel);
 #pragma warning restore 618
             }
         }
