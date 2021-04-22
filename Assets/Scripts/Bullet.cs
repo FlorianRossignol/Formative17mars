@@ -13,7 +13,7 @@ public class Bullet : MonoBehaviour
         GameObject effect_ = Instantiate(HitEffect_, transform.position, Quaternion.identity);
         Destroy(effect_, 0.2f);
         Destroy(gameObject);
-        
+        FindObjectOfType<AudioManager>().Play("Boom");
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
         GameObject effect_ = Instantiate(HitEffect_, transform.position, Quaternion.identity);
         Destroy(effect_, 0.2f);
         Destroy(gameObject);
-
+        FindObjectOfType<AudioManager>().Play("Boom");
     }
 
     private void OnBecameInvisible()

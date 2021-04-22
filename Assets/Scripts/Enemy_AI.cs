@@ -2,13 +2,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 using Random = UnityEngine.Random;
 
 public class Enemy_AI : MonoBehaviour
 {
     private Rigidbody2D Rb;
     private PlayerCharacter Player;
-    private float MoveSpeed;
+    [SerializeField] private float moveSpeed;
     private Vector3 DirectionToPlayer;
     private Vector3 LocalScale;
 
@@ -16,7 +17,6 @@ public class Enemy_AI : MonoBehaviour
     {
         Rb = GetComponent<Rigidbody2D>();
         Player = FindObjectOfType(typeof(PlayerCharacter)) as PlayerCharacter;
-        MoveSpeed = 2f;
         LocalScale = transform.localScale;
     }
 
@@ -28,7 +28,7 @@ public class Enemy_AI : MonoBehaviour
     private void MoveEnemy()
     {
         DirectionToPlayer = (Player.transform.position - transform.position).normalized;
-        Rb.velocity = new Vector2(DirectionToPlayer.x, DirectionToPlayer.y) * MoveSpeed;
+        Rb.velocity = new Vector2(DirectionToPlayer.x, DirectionToPlayer.y) * moveSpeed;
     }
 
     private void LateUpdate()

@@ -59,6 +59,7 @@ public class turret : MonoBehaviour
             {
                 nextTimeToFire = Time.time + 1 / fireRate;
                 fire();
+                FindObjectOfType<AudioManager>().Play("EnemyShoot");
             }
         }
     }
@@ -67,5 +68,13 @@ public class turret : MonoBehaviour
     {
         GameObject bulletInst = Instantiate(enemyBullet, shoot.position, shoot.rotation);
         bulletInst.GetComponent<Rigidbody2D>().AddForce(Direction * force);
+    }
+    
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.CompareTag("bullet"))
+        {
+            Destroy(gameObject);
+        }
     }
 }
