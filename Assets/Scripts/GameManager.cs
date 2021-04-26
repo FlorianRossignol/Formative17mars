@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
    [SerializeField]  List<GameObject> Enemis_;
     [SerializeField] private GameObject EnemisGameObjects_;
 
-    public int Enemiscount_ = Enemiscount_;
+    //public int Enemiscount_ = Enemiscount_;
 
     void Start()
     {
@@ -15,11 +15,11 @@ public class GameManager : MonoBehaviour
     }
 
     
-    void Update()
+    /*void Update()
     {
         if(Enemis_ == 0)
         {
             SceneManager.LoadScene("Stage2");
         }
-    }
+    }*/
 }
