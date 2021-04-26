@@ -8,10 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/FlorianScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SandyScene.unity
     guid: 4e62e99c1eb0e424d89561ceedd76f55
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: 13a419e9b877276448b62f707230b655
+  - enabled: 1
+    path: Assets/Scenes/Stage1.unity
+    guid: 7c755c0b30893ab49ae5ebf902d8edbe
   m_configObjects: {}
