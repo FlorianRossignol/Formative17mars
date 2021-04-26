@@ -95,6 +95,7 @@ GameObject:
   - component: {fileID: 8210554866641000223}
   - component: {fileID: 8210554866641000222}
   - component: {fileID: 8210554866641000209}
+  - component: {fileID: 8860686152178269827}
   m_Layer: 0
   m_Name: PlayerCharacter
   m_TagString: Player
@@ -149,7 +150,7 @@ CapsuleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.09963536, y: -0.13166118}
@@ -221,6 +222,22 @@ MonoBehaviour:
   PlayerSprite_: {fileID: 8210554866641000222}
   PlayerBody_: {fileID: 8210554866641000220}
   cam_: {fileID: 0}
+--- !u!70 &8860686152178269827
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8210554866641000208}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.083308935, y: -0.11109722}
+  m_Size: {x: 1.4616847, y: 2.080982}
+  m_Direction: 0
 --- !u!1 &8210554866736435508
 GameObject:
   m_ObjectHideFlags: 0
