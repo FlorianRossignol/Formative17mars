@@ -182,7 +182,7 @@ MonoBehaviour:
   range: 5
   target: {fileID: 0}
   gun: {fileID: 1288407661360770997}
-  enemyBullet: {fileID: 0}
+  enemyBullet: {fileID: 6431072669729809092, guid: 48dc6413616e1e34581d2895b0c71815, type: 3}
   fireRate: 0
   nextTimeToFire: 0
   shoot: {fileID: 1288407662879549878}
