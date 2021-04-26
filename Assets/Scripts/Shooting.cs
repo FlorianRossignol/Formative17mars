@@ -7,7 +7,6 @@ public class Shooting : MonoBehaviour
     [SerializeField] private Transform FirePoint_;
     [SerializeField] private GameObject BulletPrefab_;
     [SerializeField] private Camera MainCamera;
-    
     private Vector3 originalCameraPosition_; 
     private float ShakeAmt_ = 0;
     private float BulletForce_ = 20.0f;
