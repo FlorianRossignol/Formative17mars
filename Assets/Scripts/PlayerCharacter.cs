@@ -16,6 +16,7 @@ public class PlayerCharacter : MonoBehaviour
     
     void Start()
     {
+        Cursor.visible = false;
         PlayerBody_ = GetComponent<Rigidbody2D>();
     }
 
