@@ -1125,6 +1125,7 @@ MonoBehaviour:
   - {fileID: 827762605}
   - {fileID: 1856303236}
   - {fileID: 97360191}
+  PausingGameobject_: {fileID: 1076541046}
 --- !u!4 &1061296308
 Transform:
   m_ObjectHideFlags: 0
@@ -1534,8 +1535,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 1061296307}
+        m_TargetAssemblyTypeName: GameManagerStage4, Assembly-CSharp
         m_MethodName: ReturnGame
         m_Mode: 1
         m_Arguments:
@@ -2819,8 +2820,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GameManager, Assembly-CSharp
+      - m_Target: {fileID: 1061296307}
+        m_TargetAssemblyTypeName: GameManagerStage4, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
