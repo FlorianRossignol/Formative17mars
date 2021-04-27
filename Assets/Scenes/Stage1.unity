@@ -7917,7 +7917,7 @@ MonoBehaviour:
   - {fileID: 1497064003}
   - {fileID: 17249988}
   - {fileID: 1866051326}
-  EnemisCount_: 10
+  EnemisCount_: 11
 --- !u!4 &462919542
 Transform:
   m_ObjectHideFlags: 0
