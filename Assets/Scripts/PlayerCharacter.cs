@@ -2,30 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
 
 public class PlayerCharacter : MonoBehaviour
 {
-    [SerializeField] private SpriteRenderer PlayerSprite_;
-    [SerializeField] private Rigidbody2D PlayerBody_;
-    private const float MoveSpeed_ = 5.0f;
-    //private bool FacingRight_ = false;
-    private Vector2 movement_;
-    [SerializeField] private Camera cam_;
-    private Vector2 MousePos_;
-    [SerializeField] private SceneManager currentScene;
-    
+    [SerializeField] private SpriteRenderer playerSprite;
+    [SerializeField] private Rigidbody2D playerBody;
+    private const float MoveSpeed = 5.0f;
+    private Vector2 Movement;
+    [SerializeField] private Camera cam;
+    private Vector2 MousePos;
+
     void Start()
     {
         Cursor.visible = false;
-        PlayerBody_ = GetComponent<Rigidbody2D>();
+        playerBody = GetComponent<Rigidbody2D>();
     }
 
     private void Update()
     {
-        movement_.x = Input.GetAxisRaw("Horizontal");
-        movement_.y = Input.GetAxisRaw("Vertical");
+        Movement.x = Input.GetAxisRaw("Horizontal");
+        Movement.y = Input.GetAxisRaw("Vertical");
 
-       MousePos_ = cam_.ScreenToWorldPoint(Input.mousePosition);
+       MousePos = cam.ScreenToWorldPoint(Input.mousePosition);
        if (Input.GetKey(KeyCode.R))
        {
            SceneManager.LoadScene(Application.loadedLevel);
@@ -34,12 +33,12 @@ public class PlayerCharacter : MonoBehaviour
 
     void FixedUpdate()
     {
-        PlayerBody_.MovePosition(PlayerBody_.position + movement_ * MoveSpeed_ * Time.fixedDeltaTime);
+        playerBody.MovePosition(playerBody.position + Movement * MoveSpeed * Time.fixedDeltaTime);
 
-        Vector2 LookDir = MousePos_ - PlayerBody_.position;
+        Vector2 LookDir = MousePos - playerBody.position;
         float Angle_ = Mathf.Atan2(LookDir.y, LookDir.x) * Mathf.Rad2Deg - 90f;
 
-        PlayerBody_.rotation = Angle_;
+        playerBody.rotation = Angle_;
     }
     private void OnTriggerEnter2D(Collider2D other)
         {

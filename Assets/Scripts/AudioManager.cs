@@ -6,13 +6,13 @@ public class AudioManager : MonoBehaviour
 {
     //handle sounds and music
 
-    public Sound[] sounds;
+    [SerializeField] private Sound[] sounds;
 
-    private static AudioManager instance;
+    private static AudioManager instance_;
     void Awake()
     {
-        if (instance == null)
-            instance = this;
+        if (instance_ == null)
+            instance_ = this;
         else
         {
             Destroy(gameObject);

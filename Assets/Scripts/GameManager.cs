@@ -2,11 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.Serialization;
+
 public class GameManager : MonoBehaviour
 {
     
     [SerializeField] private GameObject[] enemy;
-    [SerializeField] private GameObject PausingGameobject_;
+    [SerializeField] private GameObject pausingGameobject;
     
     
     void Update()
@@ -26,7 +28,7 @@ public class GameManager : MonoBehaviour
     
     private void StartingPausingMenu()
     {
-        PausingGameobject_.SetActive(true);
+        pausingGameobject.SetActive(true);
         Time.timeScale = 0;
         Cursor.visible = true;
     }
@@ -34,7 +36,7 @@ public class GameManager : MonoBehaviour
     public void ReturnGame() 
     {
         Time.timeScale = 1;
-        PausingGameobject_.SetActive(false);
+        pausingGameobject.SetActive(false);
         Cursor.visible = false;
     }
 

@@ -1,16 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class Shooting : MonoBehaviour
 {
-    [SerializeField] private Transform FirePoint_;
-    [SerializeField] private GameObject BulletPrefab_;
-    [SerializeField] private Camera MainCamera;
-    private Vector3 originalCameraPosition_; 
-    private float ShakeAmt_ = 0;
+    [SerializeField] private Transform firePoint;
+    [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private Camera mainCamera;
+    private Vector3 OriginalCameraPosition;
     private float BulletForce_ = 20.0f;
-    // Update is called once per frame
+    
     void Update()
     {
         if (Input.GetButtonDown("Fire1"))
@@ -23,9 +23,9 @@ public class Shooting : MonoBehaviour
 
     private void Shoot()
     {
-       GameObject PlayerBullet = Instantiate(BulletPrefab_, FirePoint_.position, FirePoint_.rotation);
+       GameObject PlayerBullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
        Rigidbody2D PlayerBody_ = PlayerBullet.GetComponent<Rigidbody2D>();
-        PlayerBody_.AddForce(FirePoint_.up * BulletForce_, ForceMode2D.Impulse);
+        PlayerBody_.AddForce(firePoint.up * BulletForce_, ForceMode2D.Impulse);
     }
 
 }

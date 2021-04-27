@@ -6,7 +6,7 @@ public class GameManagerStage2 : MonoBehaviour
 {
     
     [SerializeField] private GameObject[] enemy;
-    [SerializeField] private GameObject PausingGameobject_;
+    [SerializeField] private GameObject pausingGameobject;
 
    
 
@@ -27,7 +27,7 @@ public class GameManagerStage2 : MonoBehaviour
 
     private void StartingPausingMenu()
     {
-        PausingGameobject_.SetActive(true);
+        pausingGameobject.SetActive(true);
         Time.timeScale = 0;
         Cursor.visible = true;
     }
@@ -35,7 +35,7 @@ public class GameManagerStage2 : MonoBehaviour
     public void ReturnGame()
     {
         Time.timeScale = 1;
-        PausingGameobject_.SetActive(false);
+        pausingGameobject.SetActive(false);
         Cursor.visible = false;
     }
 
