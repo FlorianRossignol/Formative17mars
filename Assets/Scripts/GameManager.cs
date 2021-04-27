@@ -7,7 +7,7 @@ public class GameManager : MonoBehaviour
     
     [SerializeField] private GameObject[] enemy;
     [SerializeField] private GameObject PausingGameobject_;
-    [SerializeField] private GameObject PausingText_;
+    
     
     void Update()
     {
@@ -27,7 +27,6 @@ public class GameManager : MonoBehaviour
     private void StartingPausingMenu()
     {
         PausingGameobject_.SetActive(true);
-        PausingText_.SetActive(false);
         Time.timeScale = 0;
     }
  
@@ -35,7 +34,6 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1;
         PausingGameobject_.SetActive(false);
-        PausingText_.SetActive(true);
     }
 
     public void QuitGame()

@@ -4,16 +4,12 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManagerStage4 : MonoBehaviour
 {
-    //[SerializeField] List<GameObject> Enemis_;
+   
     [SerializeField] private GameObject[] enemy;
 
+    [SerializeField] private GameObject PausingGameobject_;
 
-    /*void Start()
-    {
-        EnemisCount_ = 10;
-    }
- */
-    
+
     void Update()
     {
         enemy = GameObject.FindGameObjectsWithTag("enemy");
@@ -22,14 +18,29 @@ public class GameManagerStage4 : MonoBehaviour
         {
             SceneManager.LoadScene("VictoryScene");
         }
-    }
-    
 
-    /* private void EnemisKilled()
-     {
-         if(Enemis_ != null)
-         {
-             EnemisCount_--;
-         }
-     }*/
+        if (Input.GetKey(KeyCode.Escape))
+        {
+            StartingPausingMenu();
+        }
+    }
+
+    private void StartingPausingMenu()
+    {
+        PausingGameobject_.SetActive(true);
+        Time.timeScale = 0;
+    }
+
+    public void ReturnGame()
+    {
+        Time.timeScale = 1;
+        PausingGameobject_.SetActive(false);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
+
 }
