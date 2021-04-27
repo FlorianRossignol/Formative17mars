@@ -4,18 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
-   [SerializeField] List<GameObject> Enemis_;
-   [SerializeField] private float EnemisCount_ = 10;
+    [SerializeField] private GameObject Enemy_;
 
     void Start()
     {
-        EnemisCount_ = 10;
+       
     }
 
     
     void Update()
     {
-        if(EnemisCount_ == 0)
+        Enemy_ = GameObject.FindGameObjectsWithTag("Enemy");
+        if(Enemy_.length == 0)
         {
             SceneManager.LoadScene("Stage2");
         }
@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
 
     private void EnemisKilled()
     {
-        if(Enemis_ != null)
+        if(Enemis_ == null)
         {
             EnemisCount_--;
         }
