@@ -48,7 +48,7 @@ public class Enemy_AI : MonoBehaviour
     {
         if (other.gameObject.CompareTag("bullet"))
         {
-            //Instantiate(deathEffect, transform.position, quaternion.identity);
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
             
         }

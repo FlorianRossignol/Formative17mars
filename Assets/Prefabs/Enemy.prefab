@@ -146,6 +146,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
+  deathEffect: {fileID: 7333533371823463751, guid: b0390db1ff715794690f9248f924859b, type: 3}
 --- !u!50 &1288407661360770995
 Rigidbody2D:
   serializedVersion: 4

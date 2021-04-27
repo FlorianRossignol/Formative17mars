@@ -347,7 +347,7 @@ TilemapRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -10
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
   m_MaxChunkCount: 16
@@ -9676,6 +9676,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1288407661360770992, guid: 6ba21625c7790ce4badb25682a151896, type: 3}
+      propertyPath: deathEffect
+      value: 
+      objectReference: {fileID: 7333533371823463751, guid: b0390db1ff715794690f9248f924859b, type: 3}
     - target: {fileID: 1288407661360770993, guid: 6ba21625c7790ce4badb25682a151896, type: 3}
       propertyPath: m_IsTrigger
       value: 0
