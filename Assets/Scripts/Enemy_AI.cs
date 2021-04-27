@@ -12,7 +12,6 @@ public class Enemy_AI : MonoBehaviour
     [SerializeField] private float moveSpeed;
     private Vector3 DirectionToPlayer;
     private Vector3 LocalScale;
-    [SerializeField] private GameObject deathEffect;
 
     private void Start()
     {
@@ -48,9 +47,7 @@ public class Enemy_AI : MonoBehaviour
     {
         if (other.gameObject.CompareTag("bullet"))
         {
-            Instantiate(deathEffect, transform.position, Quaternion.identity);
             Destroy(gameObject);
-            
         }
     }
 }

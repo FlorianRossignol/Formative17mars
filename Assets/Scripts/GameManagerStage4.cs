@@ -29,12 +29,14 @@ public class GameManagerStage4 : MonoBehaviour
     {
         PausingGameobject_.SetActive(true);
         Time.timeScale = 0;
+        Cursor.visible = true;
     }
 
     public void ReturnGame()
     {
         Time.timeScale = 1;
         PausingGameobject_.SetActive(false);
+        Cursor.visible = false;
     }
 
     public void QuitGame()

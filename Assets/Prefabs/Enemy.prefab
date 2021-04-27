@@ -146,7 +146,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 2
-  deathEffect: {fileID: 7333533371823463751, guid: b0390db1ff715794690f9248f924859b, type: 3}
 --- !u!50 &1288407661360770995
 Rigidbody2D:
   serializedVersion: 4
@@ -188,6 +187,7 @@ MonoBehaviour:
   nextTimeToFire: 0
   shoot: {fileID: 1288407662879549878}
   force: 0
+  deathEffect: {fileID: 7333533371823463751, guid: b0390db1ff715794690f9248f924859b, type: 3}
 --- !u!1 &1288407662879549881
 GameObject:
   m_ObjectHideFlags: 0

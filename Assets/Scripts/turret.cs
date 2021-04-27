@@ -25,6 +25,8 @@ public class turret : MonoBehaviour
     [SerializeField] private Transform shoot;
     [SerializeField] private float force;
     
+    [SerializeField] private GameObject deathEffect;
+    
     void Update()
     {
         Vector2 targetPos = target.position;
@@ -75,6 +77,7 @@ public class turret : MonoBehaviour
         if (other.gameObject.CompareTag("bullet"))
         {
             Destroy(gameObject);
+            Instantiate(deathEffect, transform.position, Quaternion.identity);
         }
     }
 }

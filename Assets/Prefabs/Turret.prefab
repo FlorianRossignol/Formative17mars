@@ -105,6 +105,7 @@ MonoBehaviour:
   nextTimeToFire: 0
   shoot: {fileID: 129470157023869189}
   force: 100
+  deathEffect: {fileID: 2178961423382797719, guid: 39dfb6e458dc155408cc38c0574428c9, type: 3}
 --- !u!61 &129470155357085453
 BoxCollider2D:
   m_ObjectHideFlags: 0
