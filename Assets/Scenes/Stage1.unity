@@ -7905,7 +7905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96e01013168979c488db4dd13bfa63b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Enemis_:
+  enemy:
   - {fileID: 1520504157}
   - {fileID: 747959646}
   - {fileID: 138864040}
@@ -7917,7 +7917,6 @@ MonoBehaviour:
   - {fileID: 1497064003}
   - {fileID: 17249988}
   - {fileID: 1866051326}
-  EnemisCount_: 11
 --- !u!4 &462919542
 Transform:
   m_ObjectHideFlags: 0
