@@ -4,16 +4,11 @@ using UnityEngine;
 
 public class MouseShow : MonoBehaviour
 {
-    // Start is called before the first frame update
+    //Show mouse
     void Start()
     {
         Cursor.visible = true;
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }

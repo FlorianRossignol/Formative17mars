@@ -5,6 +5,8 @@ using UnityEngine.Serialization;
 
 public class Shooting : MonoBehaviour
 {
+    //Shooting script
+    
     [SerializeField] private Transform firePoint;
     [SerializeField] private GameObject bulletPrefab;
     [SerializeField] private Camera mainCamera;
@@ -23,9 +25,9 @@ public class Shooting : MonoBehaviour
 
     private void Shoot()
     {
-       GameObject PlayerBullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-       Rigidbody2D PlayerBody_ = PlayerBullet.GetComponent<Rigidbody2D>();
-        PlayerBody_.AddForce(firePoint.up * BulletForce_, ForceMode2D.Impulse);
+       GameObject playerBullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+       Rigidbody2D playerBody = playerBullet.GetComponent<Rigidbody2D>();
+        playerBody.AddForce(firePoint.up * BulletForce_, ForceMode2D.Impulse);
     }
 
 }

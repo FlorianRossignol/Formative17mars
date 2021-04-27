@@ -6,6 +6,7 @@ using UnityEngine.Serialization;
 
 public class GameManager : MonoBehaviour
 {
+    //Handle Stage 1
     
     [SerializeField] private GameObject[] enemy;
     [SerializeField] private GameObject pausingGameobject;

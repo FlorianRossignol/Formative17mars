@@ -4,16 +4,10 @@ using UnityEngine;
 
 public class MouseHide : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Hide the mouse
     void Start()
     {
         Cursor.visible = false;
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
         
     }
 }

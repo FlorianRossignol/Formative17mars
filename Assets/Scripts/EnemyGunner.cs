@@ -4,23 +4,18 @@ using UnityEngine;
 
 public class EnemyGunner : MonoBehaviour
 {
-    [SerializeField] private float range;
+    //Handle enemy gunners
     
+    [SerializeField] private float range;
     [SerializeField] private Transform target;
-
-    bool IsDetected = false;
-
-    private Vector2 Direction;
-
     [SerializeField] private GameObject gun;
-
     [SerializeField] private GameObject enemyBullet;
-
     [SerializeField] private float fireRate;
-
     [SerializeField] private float nextTimeToFire = 0;
     [SerializeField] private Transform shoot;
     [SerializeField] private float force;
+    bool IsDetected = false;
+    private Vector2 Direction;
     
     void Update()
     {

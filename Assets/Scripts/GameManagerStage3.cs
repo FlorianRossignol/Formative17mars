@@ -6,12 +6,11 @@ using UnityEngine.Serialization;
 
 public class GameManagerStage3 : MonoBehaviour
 {
+    //Handle Stage 3
     
     [SerializeField] private GameObject[] enemy;
     [SerializeField] private GameObject pausingGameobject;
-
-
-
+    
     void Update()
     {
         enemy = GameObject.FindGameObjectsWithTag("enemy");

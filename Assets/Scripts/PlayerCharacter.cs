@@ -6,6 +6,8 @@ using UnityEngine.Serialization;
 
 public class PlayerCharacter : MonoBehaviour
 {
+    //Player character script
+    
     [SerializeField] private SpriteRenderer playerSprite;
     [SerializeField] private Rigidbody2D playerBody;
     private const float MoveSpeed = 5.0f;

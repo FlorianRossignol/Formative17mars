@@ -5,6 +5,8 @@ using UnityEngine;
 
 public class PlayerCamera : MonoBehaviour
 {
+    //Handle the camera
+    
     [SerializeField] private Transform playerCharacter;
     [SerializeField] private float cameraDistance = 30.0f;
     [SerializeField] private Transform left;

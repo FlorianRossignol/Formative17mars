@@ -5,8 +5,10 @@ using System.Net;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-public class turret : MonoBehaviour
+public class Turret : MonoBehaviour
 {
+    //Handle the enemy turrets
+    
     [SerializeField] private float range;
     
     [SerializeField] private Transform target;

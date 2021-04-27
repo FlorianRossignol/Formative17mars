@@ -4,12 +4,11 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class GameManagerStage2 : MonoBehaviour
 {
+    //Handle Stage 2
     
     [SerializeField] private GameObject[] enemy;
     [SerializeField] private GameObject pausingGameobject;
-
-   
-
+    
     void Update()
     {
         enemy = GameObject.FindGameObjectsWithTag("enemy");
