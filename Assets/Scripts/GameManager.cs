@@ -20,12 +20,13 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene("Stage2");
         }
     }
+    
 
-    private void EnemisKilled()
+   /* private void EnemisKilled()
     {
         if(Enemis_ == null)
         {
             EnemisCount_--;
         }
-    }
+    }*/
 }
